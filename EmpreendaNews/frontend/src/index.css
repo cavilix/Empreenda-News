@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.linkPgInicial{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.linkPgInicial:hover{
+    color: #dac3ff;
+    font-size: 18px;
+}
+.linkNav{
+  border-radius: 50px;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #000814;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+.linkNav:hover{
+    color: white;
+    background-color: #002c6d;
+    font-size: 13px;
+}
+
+.linkFooter{
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    transition: 0.5;
+}
+
+.linkFooter:hover{
+    color: #dac3ff;
+}
